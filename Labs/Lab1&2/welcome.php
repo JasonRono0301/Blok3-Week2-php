@@ -1,3 +1,10 @@
+<?php
+    //De GET en POST variabeles voor het formulier
+    $_GET["name"];
+    $_GET["email"];    
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +14,8 @@
     <title>Document</title>
 </head>
 <body>
+Welcome <?php echo $_GET["name"]; ?><br>
+Your email address is: <?php echo $_GET["email"]; ?>
     
 </body>
 </html>
