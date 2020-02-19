@@ -41,10 +41,6 @@
         }
     }
 
-    
-    
-
-
     function test($test1){
         $test1= trim($test1);
         $test1= stripcslashes($test1);
@@ -62,15 +58,11 @@
     <input type="submit" name="submit">
 
 
-
-
-
 <?php
     echo "<h1>Jou antwoord:</h2>";
     echo $naam;
     echo "<br>" . "<br>";
     echo $email;
-
 ?>
 </body>
 </html>
