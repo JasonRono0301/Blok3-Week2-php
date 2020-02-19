@@ -13,7 +13,7 @@
 <?php
     //Variabele van de naam en email + de error.
     $naam = "";
-    $email ="";
+    $email = "";
     $nameErr = "";
     $emailErr = "";
    
@@ -57,7 +57,7 @@
    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     Naam: <input type="text" name="naam"><span class="error"> * <?php echo $nameErr;?></span>
     <br><br>
-    E-mail: <input type="text" name="email"><span class="error"> * <?php echo $nameErr;?></span>
+    E-mail: <input type="text" name="email"><span class="error"> * <?php echo $emailErr;?></span>
     <br><br>
     <input type="submit" name="submit">
 
