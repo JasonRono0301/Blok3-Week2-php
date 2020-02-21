@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: gray;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+
+
+p{
+    color: white;
+    font-family: 'Krona One', ;
+}
